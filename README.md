@@ -54,3 +54,30 @@ Bunların yanında, bu standartlara uymak yazılım geliştirme sürecini daha s
 | **Enum type name**      | PascalCase   | 128         | Yes        | No         | No         | No               | [A-z]          | No              |
 
 C# Kodlama Standartları ve İsimlendirme Konvansiyonları
+| **Nesne Adı**          | **Notasyon** | **Uzunluk** | **Çoğul** | **Önek** | **Sonek** | **Kısaltmalar** | **Karakter Maskesi** | **Alt Çizgi** |
+|------------------------|--------------|-------------|-----------|----------|-----------|-----------------|----------------------|---------------|
+| **Namespace adı**       | PascalCase   | 128         | Evet      | Evet     | Hayır     | Hayır           | [A-z][0-9]           | Hayır         |
+| **Sınıf adı**           | PascalCase   | 128         | Hayır     | Hayır    | Evet      | Hayır           | [A-z][0-9]           | Hayır         |
+| **Yapıcı adı (Constructor)** | PascalCase | 128 | Hayır | Hayır | Evet | Hayır | [A-z][0-9] | Hayır |
+| **Metod adı**           | PascalCase   | 128         | Evet      | Hayır    | Hayır     | Hayır           | [A-z][0-9]           | Hayır         |
+| **Metod argümanları**   | camelCase    | 128         | Evet      | Hayır    | Hayır     | Evet            | [A-z][0-9]           | Hayır         |
+| **Yerel değişkenler**   | camelCase    | 50          | Evet      | Hayır    | Hayır     | Evet            | [A-z][0-9]           | Hayır         |
+| **Sabitler adı**        | PascalCase   | 50          | Hayır     | Hayır    | Hayır     | Hayır           | [A-z][0-9]           | Hayır         |
+| **Alan adı (Public)**   | PascalCase   | 50          | Evet      | Hayır    | Hayır     | Evet            | [A-z][0-9]           | Hayır         |
+| **Alan adı (Private)**  | _camelCase   | 50          | Evet      | Hayır    | Hayır     | Evet            | _[A-z][0-9]          | Evet          |
+| **Özellikler adı**      | PascalCase   | 50          | Evet      | Hayır    | Hayır     | Evet            | [A-z][0-9]           | Hayır         |
+| **Delegat adı**         | PascalCase   | 128         | Hayır     | Hayır    | Evet      | Evet            | [A-z]                | Hayır         |
+| **Enum türü adı**       | PascalCase   | 128         | Evet      | Hayır    | Hayır     | Hayır           | [A-z]                | Hayır         |
+
+Örnek  
+1. Namespace Name (Ad Alanı)
+Notasyon: PascalCase
+Uzunluk: 128 karaktere kadar
+Çoğul: Evet
+Önek: Evet
+Ayrıca: Abbr. kullanılmaz, alt çizgi yok.
+
+namespace MyApplication.Utilities
+{
+    // Burada 'MyApplication.Utilities' bir namespace ismi olup PascalCase kullanılmıştır.
+}
