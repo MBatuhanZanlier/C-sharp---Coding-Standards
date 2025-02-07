@@ -1,3 +1,4 @@
+# Neden Temiz Kod Prensibini Uygulamalıyız? 
 ## 1. Kodun Okunabilirliğini ve Anlaşılabilirliğini Artırır:
 Bir yazılımcı, bir projeye yeni başladığında veya başkası tarafından yazılmış bir kodu incelediğinde, tutarlı bir isimlendirme ve yapılandırma standardı sayesinde kodu hızlıca anlayabilir. Örneğin:
 
