@@ -120,7 +120,7 @@ Bunların yanında, bu standartlara uymak yazılım geliştirme sürecini daha s
 - Enum türleri de PascalCase kullanılarak yazılır. Bu örnekte, bir indirim türünü temsil eden enum gösterilmiştir.
 
 # Summary  
-<summary> etiketi, özellikle C# gibi programlama dillerinde, XML yorumları (XML comments) içerisinde kullanılan ve bir metodun, sınıfın, özelliğin veya başka bir yapının ne işe yaradığını açıklayan bir etikettir. Bu etiket, kodun okunabilirliğini artırmak ve yazılım belgelerini oluşturmak için yaygın bir yöntemdir. 
+< summary > etiketi, özellikle C# gibi programlama dillerinde, XML yorumları (XML comments) içerisinde kullanılan ve bir metodun, sınıfın, özelliğin veya başka bir yapının ne işe yaradığını açıklayan bir etikettir. Bu etiket, kodun okunabilirliğini artırmak ve yazılım belgelerini oluşturmak için yaygın bir yöntemdir. 
 Kullanmak için 3 adet /// eğik çizgi (slash) olarak kullanılır. 
 ## Ne zaman kullanılır?
 - <summary> etiketi, genellikle metodların, sınıfların, özelliklerin ve diğer yapıların açıklamalarını eklemek için kullanılır. Bu, başkalarının (veya sizin) yazdığınız kodu anlamasını kolaylaştırır. Ayrıca, bu etiketler IntelliSense (Visual Studio'da veya başka bir IDE'de kullanılan kod tamamlama aracında) gibi araçlar tarafından okunarak otomatik dokümantasyon sağlar. 
